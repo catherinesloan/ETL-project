@@ -13,7 +13,7 @@ Data has been retrieved through the use of document downloads and web scraping. 
 
 ## How is the database implemented?
 
-The Jupiter notebooks should be run in the order they are numbered. For example  `01-extracting_transforming_electoral_division.ipynb` should be run first, followed by `02-extracting_transforming_election_results.ipynb` and so on, up to notebook 10.
+The Jupyter notebooks should be run in the order they are numbered. For example  `01-extracting_transforming_electoral_division.ipynb` should be run first, followed by `02-extracting_transforming_election_results.ipynb` and so on, up to notebook 10.
 The schema.sql file should be run in PostgreSQL prior to running notebook `11-Load.ipynb`. 
 A `login_details.py` file will need to be created which contains username = “username” and password = “password” with the specific information related to the users PostgreSQL login information.
 
